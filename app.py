@@ -54,7 +54,7 @@ def create_pdf(summary):
     return pdf_buffer
 
 # Streamlit interface
-st.title("Research Paper Summarizer")
+st.title("Research Paper Summarizer1")
 st.write("Upload a PDF document to summarize its content.")
 
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
